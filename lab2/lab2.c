@@ -8,13 +8,13 @@
  *   List all sources used to complete this assignment. Include a
  *   URL for internet resources. You do not need to include the lab
  *   write-up, course textbooks, or man pages. If you did not use
- *   any sources, list none.  YOU MUST COMPLETE THIS SECTION.
+ *   any sources, write the word "None".  YOU MUST COMPLETE THIS SECTION.
  *                                                                                                                                          
  * People consulted:
  *   List anyone you discussed this assignment with, including your
  *   classmates, friends, and Harper Tutors.  You do not need to list
  *   the instructors or the teaching assistants.  If you did not consult
- *   anyone, list none.  YOU MUST COMPLETE THIS SECTION.
+ *   anyone, write the word "None".  YOU MUST COMPLETE THIS SECTION.
  *
  */
 
@@ -32,7 +32,7 @@
 #include "lab2.h"
 
 /*
- * Exercise 1
+ * Task 1
  *
  * compute_div_fraction - extract fractional part of the value that
  * results from dividing x by y.
@@ -54,34 +54,34 @@ double compute_div_fraction(int x, int y)
 }
 
 
-/* Exercise 2
+/* Task 2
  *
  * in_range_1: is x in the range lb..ub
  *
- * Restriction: use only relational (<, <=, >, >=, ==) and logical
- * operators (&&, ||, ~).  You may NOT use conditonal statements or
- * conditonal expressions for this task.
+ * Restriction: use only relational (<, <=, >, >=, ==, !=) and logical
+ * operators (&&, ||, !) for this task.  You may NOT use conditional
+ * statements or conditional expressions for this task.
  *
  * lb, ub: range
- * inclusive: true if ends points should included in the range
+ * is_inclusive: true if ends points should included in the range
  * x: value to check
  *
  * Returns: true if x is in the range, false otherwise.
  */
-bool in_range_1(double lb, double ub, double x, bool inclusive) {
+bool in_range_1(double lb, double ub, double x, bool is_inclusive) {
     // YOUR CODE HERE
     // Replace false with an appropriate return value
     return false;
 }
 
 
-/* Exercise 3 
+/* Task 3
  *
  * in_range_2: is x in the range lb..ub
  *
- * Restriction: use only relational operators (<, <=, >, >=, ==).  You
- * may NOT use logical operators (that is, &&, ||, or ~) for this
- * task.
+ * Restriction: use only relational operators (<, <=, >, >=, ==, !=)
+ * and conditional statements for this task.  You may NOT use logical
+ * operators (that is, &&, ||, or !).
  *
  * lb, ub: range
  * is_inclusive: true if ends points should included in the range
@@ -95,10 +95,7 @@ bool in_range_2(double lb, double ub, double x, bool is_inclusive) {
     return false;
 }
 
-
-
-
-/* Exercise 4
+/* Task 4
  *
  * clip - clip values outside the interval [lb, ub] (inclusive) to the
  *   interval edges.
@@ -119,8 +116,7 @@ double clip(double x, double lb, double ub) {
 }
 
 
-
-/* Exercise 5
+/* Task 5
  *
  * extract_flag: use the value of the bit at choice_bit to determine
  * whether decide which flag to return:

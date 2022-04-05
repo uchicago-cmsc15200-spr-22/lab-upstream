@@ -6,7 +6,7 @@
  */
 
 /*
- * Exercise 1
+ * Task 1
  *
  * compute_div_fraction - extract fractional part of the value that
  * results from dividing x by y.
@@ -19,13 +19,13 @@
 double compute_div_fraction(int x, int y);
 
 
-/* Exercise 2
+/* Task 2
  *
  * in_range_1: is x in the range lb..ub
  *
  * Restriction: use only relational (<, <=, >, >=, ==) and logical
- * operators (&&, ||, ~).  You may NOT use conditonal statements or
- * conditonal expressions for this task.
+ * operators (&&, ||, !) for this task.  You may NOT use conditional
+ * statements or conditional expressions for this task.
  *
  * lb, ub: range
  * is_inclusive: true if ends points should included in the range
@@ -36,13 +36,13 @@ double compute_div_fraction(int x, int y);
 bool in_range_1(double lb, double ub, double x, bool is_inclusive);
 
 
-/* Exercise 3 
+/* Task 3
  *
- * in_range_2: is x in the range lb..ub
+ * in_range_1: is x in the range lb..ub
  *
- * Restriction: use only relational operators (<, <=, >, >=, ==).  You
- * may NOT use logical operators (that is, &&, ||, or ~) for this
- * task.
+ * Restriction: use only relational operators (<, <=, >, >=, ==) and
+ * conditionals for this task.  You may NOT use logical operators
+ * (that is, &&, ||, or !) for this task.
  *
  * lb, ub: range
  * is_inclusive: true if ends points should included in the range
@@ -53,7 +53,7 @@ bool in_range_1(double lb, double ub, double x, bool is_inclusive);
 bool in_range_2(double lb, double ub, double x, bool is_inclusive);
 
 
-/* Exercise 4
+/* Task 4
  *
  * clip - clip values outside the interval [lb, ub] (inclusive) to the
  *   interval edges.
@@ -70,7 +70,7 @@ bool in_range_2(double lb, double ub, double x, bool is_inclusive);
 double clip(double x, double lb, double ub);
 
 
-/* Exercise 5
+/* Task 5
  *
  * extract_flag: use the value of the bit at choice_bit to determine
  * whether decide which flag to return:
