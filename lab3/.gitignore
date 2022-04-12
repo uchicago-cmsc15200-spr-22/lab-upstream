@@ -1,0 +1,9 @@
+results.json
+results.log
+student_test_lab3
+test_lab3
+a.out
+*.dSYM
+*~
+backups/*
+testfile
