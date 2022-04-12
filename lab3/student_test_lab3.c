@@ -3,7 +3,7 @@
  * Lab #2 Student Test Code
  *
  * Add your tests to this file.  
- * Run make student_test_lab2 to compile your tests and ./student_test_lab2
+ * Run make student_test_lab3 to compile your tests and ./student_test_lab3
  * to run your tests.
  * 
  */
