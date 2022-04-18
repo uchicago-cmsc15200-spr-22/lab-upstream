@@ -1,0 +1,11 @@
+results.json
+results.log
+student_test_lab4
+test_lab4
+*.dSYM
+*~
+a.out
+cta.csv
+cta.csv.zip
+
+
