@@ -20,6 +20,14 @@ struct inttree {
  */ 
 inttree_t *make_node(int val, inttree_t *left, inttree_t *right);
 
+/* free_tree: Frees space associated with a tree
+ * 
+ * t: a pointer to the tree
+ * 
+ * Returns: Nothing, frees memory
+ */ 
+void free_tree(inttree_t *t);
+
 /* no_onlies: Determine whether every node in a tree has either  
  *   zero or two children (no node is an only child)
  * 
